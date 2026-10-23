@@ -3,7 +3,7 @@ from pathlib import Path
 
 PROJECT_DIR = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = PROJECT_DIR / "data" / "Windows-APT 2025 A Dataset for APT-Inspired Attack"
-DEFAULT_DATASET_ZIP = PROJECT_DIR.parent / "Windows-APT 2025 A Dataset for APT-Inspired Attack.zip"
+DEFAULT_DATASET_ZIP = PROJECT_DIR / "dataset-archive" / "Windows-APT-2025-dataset.zip"
 OUTPUT_DIR = PROJECT_DIR / "outputs"
 
 RANDOM_SEED = 42

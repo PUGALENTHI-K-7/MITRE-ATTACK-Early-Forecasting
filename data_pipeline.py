@@ -156,7 +156,7 @@ def resolve_data_dir(data_dir: str | Path | None = None, dataset_zip: str | Path
 
     zip_path = Path(dataset_zip).expanduser().resolve() if dataset_zip else DEFAULT_DATASET_ZIP
     if zip_path.exists():
-        return extract_dataset_zip(zip_path, DEFAULT_DATA_DIR.parent)
+        return extract_dataset_zip(zip_path, DEFAULT_DATA_DIR)
 
     raise FileNotFoundError(
         "Dataset not found. Pass --dataset-zip 'Windows-APT 2025 A Dataset for APT-Inspired Attack.zip' "
