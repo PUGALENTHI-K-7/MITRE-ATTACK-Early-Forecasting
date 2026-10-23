@@ -1,0 +1,5 @@
+Condition,Avg. Prob.,Prob. Drop
+Unmasked (baseline),0.594609,0.000000
+Top-1 position masked,0.304364,0.290246
+Top-2 positions masked,0.266305,0.328304
+Random position masked,0.559529,0.035080

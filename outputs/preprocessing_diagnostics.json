@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "file": "28-October-01-November.csv",
+      "split": "train",
+      "raw_rows": 693,
+      "annotated_rows": 56
+    },
+    {
+      "file": "1-11-November.csv",
+      "split": "train",
+      "raw_rows": 8807,
+      "annotated_rows": 6880
+    },
+    {
+      "file": "11-16-November.csv",
+      "split": "train",
+      "raw_rows": 6554,
+      "annotated_rows": 839
+    },
+    {
+      "file": "23-30-November.csv",
+      "split": "train",
+      "raw_rows": 8038,
+      "annotated_rows": 6396
+    },
+    {
+      "file": "30-November.csv",
+      "split": "train",
+      "raw_rows": 2002,
+      "annotated_rows": 1781
+    },
+    {
+      "file": "01-03-December.csv",
+      "split": "test",
+      "raw_rows": 8838,
+      "annotated_rows": 6905
+    },
+    {
+      "file": "03-04-December.csv",
+      "split": "test",
+      "raw_rows": 7291,
+      "annotated_rows": 4868
+    },
+    {
+      "file": "04-07-December.csv",
+      "split": "test",
+      "raw_rows": 7750,
+      "annotated_rows": 5514
+    },
+    {
+      "file": "07-10-December.csv",
+      "split": "test",
+      "raw_rows": 9185,
+      "annotated_rows": 6623
+    },
+    {
+      "file": "10-December-P1.csv",
+      "split": "test",
+      "raw_rows": 9049,
+      "annotated_rows": 5255
+    },
+    {
+      "file": "10-December-P2.csv",
+      "split": "test",
+      "raw_rows": 1188,
+      "annotated_rows": 859
+    },
+    {
+      "file": "11-12-December.csv",
+      "split": "test",
+      "raw_rows": 9655,
+      "annotated_rows": 5687
+    },
+    {
+      "file": "12-13-December.csv",
+      "split": "test",
+      "raw_rows": 6406,
+      "annotated_rows": 2842
+    },
+    {
+      "file": "13-14-December.csv",
+      "split": "test",
+      "raw_rows": 9738,
+      "annotated_rows": 5020
+    },
+    {
+      "file": "14-17-December.csv",
+      "split": "test",
+      "raw_rows": 5644,
+      "annotated_rows": 3481
+    },
+    {
+      "file": "22-December.csv",
+      "split": "test",
+      "raw_rows": 1173,
+      "annotated_rows": 613
+    }
+  ],
+  "raw_rows": 102011,
+  "annotated_rows": 63619,
+  "compressed_events": 46762,
+  "data_dir": "J:\\PROJECT\\AIES\\MITRE-ATTACK-Early-Forecasting\\data\\Windows-APT 2025 A Dataset for APT-Inspired Attack",
+  "stream_count": 47,
+  "train_stream_count": 12,
+  "test_stream_count": 35,
+  "vocab_size_including_special_tokens": 42,
+  "train_prefix_target_pairs": 7028,
+  "validation_prefix_target_pairs": 1758,
+  "test_prefix_target_pairs": 31688,
+  "max_prefix_length": 15,
+  "seed": 42
+}

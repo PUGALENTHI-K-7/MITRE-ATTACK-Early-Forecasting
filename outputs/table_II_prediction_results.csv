@@ -1,0 +1,6 @@
+Model,Macro-F1,Top-3 Acc.,FPR
+Most Frequent,0.036089,0.593600,0.083333
+Markov (1st order),0.215987,0.769092,0.050710
+Markov (2nd order),0.322267,0.785660,0.052797
+Causal Transformer,0.355419,0.810906,0.046788
+GRU + Attention (Proposed),0.305749,0.805731,0.047129

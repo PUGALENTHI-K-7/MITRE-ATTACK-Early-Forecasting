@@ -1,0 +1,13 @@
+Technique,Technique ID,Sampled target instances,Valid sustained warnings,Median Lead (s),Coverage (%)
+Ingress Tool Transfer,T1105,250,17,49.4620,6.8000
+Windows Command Shell,T1059.003,250,53,148.0340,21.2000
+Modify Registry,T1112,250,0,—,0.0000
+Account Discovery,T1087,250,29,53.3890,11.6000
+Lateral Tool Transfer,T1570,250,1,3.0640,0.4000
+Valid Accounts,T1078,250,13,24.2300,5.2000
+Scheduled Task,T1053.005,250,16,12.4840,6.4000
+Command and Scripting Interpreter,T1059,250,0,—,0.0000
+Process Injection,T1055,250,0,—,0.0000
+Stored Data Manipulation,T1565.001,74,3,16.2010,4.0541
+File Deletion,T1070.004,250,0,—,0.0000
+PowerShell,T1059.001,250,19,0.2030,7.6000

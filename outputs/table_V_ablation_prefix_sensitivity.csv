@@ -1,0 +1,6 @@
+Configuration,Macro-F1,Top-3 Acc.
+GRU without attention,0.353961,0.812800
+GRU with attention (proposed),0.305749,0.805731
+Short prefix (k ≤ 3),0.212776,0.516667
+Medium prefix (k ≤ 6),0.235549,0.628099
+Long prefix (k ≤ 10),0.242043,0.682540

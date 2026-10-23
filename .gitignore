@@ -1,0 +1,12 @@
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Keep extracted dataset local
+# Compressed dataset archive is uploaded separately
+/data/
+
+# Local environment and secrets
+.env
