@@ -64,13 +64,13 @@ MITRE-ATTACK-Early-Forecasting/
 ├── lead_time_analysis.py
 ├── faithfulness_analysis.py
 ├── ablation_analysis.py
-├── data/                                 # local dataset; excluded from Git
+├── data/                                
 │   └── Windows-APT 2025 A Dataset for APT-Inspired Attack/
 │       ├── 28-October-01-November.csv
 │       ├── 1-11-November.csv
 │       ├── ...
 │       └── 22-December.csv
-└── outputs/                              # generated files; excluded from Git
+└── outputs/                             
 ```
 
 The `data/` and `outputs/` directories are created or populated locally. **Do not commit the full dataset folder to this repository.** The provided dataset package includes `combined.csv`, which is about 248 MB in the supplied archive and exceeds GitHub's 100 MB per-file limit for ordinary Git uploads. The experiment scripts use the 16 date-period CSV files listed in `config.py`; `combined.csv` is not needed by this implementation.
